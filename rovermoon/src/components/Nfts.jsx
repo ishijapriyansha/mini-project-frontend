@@ -6,23 +6,23 @@ export default function Nfts() {
         const articles = [
           {
           "imgsrc":"https://boredapeyachtclub.com/_next/image?url=%2Fimages%2Ftransitions%2Fbayc%2F2.webp&w=1200&q=75",
-            "title": "10th Marksheet",
+            "title": "Internship Cerificate",
             "recipient": "Hemamalini",
-            "description": "Awarded on annual day",
+            "description": "Issued in Bangalore",
             "url": "https://www.cnn.com/2024/07/06/weather/hurricane-beryl-south-texas-coast-weekend-sunday-monday/index.html",
           },
           {
-            "imgsrc":"https://boredapeyachtclub.com/_next/image?url=%2Fimages%2Ftransitions%2Fbayc%2F2.webp&w=1200&q=75",
-            "title": "12th Marksheet",
+            "imgsrc":"https://i.seadn.io/gae/hs3MjnLl_q0lk-lfvB453APzJ3eekF4zePr_EHwksYwFivMvFKm8q_tnjRKZhrEJc7ekV8UiWAiqxeMEE0xiR-P2Mm1UzSjiz8Hrzg?auto=format&dpr=1&w=1000",
+            "title": "BTech Degree",
             "recipient": "Ishija Priyansha",
-            "description": "Awarded in 2021",
+            "description": "Awarded at Dayananda Sagar College of Engineering",
             "url": "https://www.euractiv.com/section/global-europe/news/putin-tells-orban-ukraine-must-capitulate-if-it-wants-peace/"
             },
             {
-              "imgsrc":"https://boredapeyachtclub.com/_next/image?url=%2Fimages%2Ftransitions%2Fbayc%2F2.webp&w=1200&q=75",
-                "title": "Extra Curricular Certificate",
+              "imgsrc":"https://i.seadn.io/gae/G9eAaf94L2z5IvUCOK0GiNqAtJUg1E1H4g1OVdCwzWjLyaePBHjjaqanrNZIr64LGjeJe6PSyvnvhkDSrdlB4js7NzBG_5fCxCcF?auto=format&dpr=1&w=1000",
+                "title": "Employment Certificate",
                 "recipient": "Daksh K",
-                "description": "Awarded for Excellent performance!",
+                "description": "Serving DevCorpo since 2017!",
                 "url": "https://www.espn.com/mlb/story/_/id/40503911/pirates-tie-club-record-7-home-runs-rout-mets"
                 },
                        {

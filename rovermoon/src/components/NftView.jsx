@@ -1,10 +1,11 @@
 import React from 'react'
 import newnewtarget from "./newnewtarget.jpg"
-export default function Nftitem(props) {
+
+export default function NftView(props) {
   return (
-    <div className=' image h-fit w-72 mt-28 border-2 border-solid border-black text-center rounded-md bg-pink-400 p-2 ml-10 '>
+    <div className=' image h-max w-96 mt-28 border-2 border-solid border-black text-center rounded-md bg-pink-400 p-2 ml-96 '>
       <img className="border-2 border-black border-solid" src={props.imgsrc} alt="test"  />
-      <div className="details ">
+      <div className="details h-1/2 w-96 text-xl ">
         <p className='font-bold'>{props.title}</p>
         <p className='font-semibold'> Owned By {props.recipient}</p>
         <p className='font-mono'> {props.description}</p>
@@ -15,10 +16,11 @@ export default function Nftitem(props) {
   )
 }
 
-Nftitem.defaultProps={
+NftView.defaultProps={
     imgsrc:newnewtarget,
     title:"Certicate of Excellence",
     recipient:"Ishija Priyansha",
     description:"Ishija Priyansha the great!",
     url:"https://dictionary.cambridge.org/dictionary/english/legendary"
 }
+

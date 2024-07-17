@@ -5,13 +5,12 @@ import '../index.css'
 export default function Firstdraft() {
   return (
     <>
-
         <div className=' h-100 w-100  '>
         <img src={newnewtarget} alt="test" srcset="" />
       </div>
       <div className='bgimagediv h-fit w-screen absolute top-0 z-10 backdrop-blur '>
        <div className='blackdiv flex bg-slate-900 h-11/12 w-4/5 my-5 mx-36 mt-2 rounded-2xl relative z-20 font-serif border-solid border-8 border-black opacity-75 top-36'>
-       <div className='textdiv inline-block w-1/2 '><p className=' text-white text-6xl px-16 pt-28  '>Secure your Credentials-within minutes! <br></br></p><p className='text-blue-500 text-3xl px-20 pt-10 '>SubText</p>
+       <div className='textdiv inline-block w-1/2 '><p className=' text-white text-6xl px-16 pt-28  '>Secure your Credentials-within minutes! <br></br></p><p className='text-blue-500 text-3xl px-20 pt-10 '></p>
       
        </div>
        <div className="formdiv inline-block w-1/2 text-white font-semibold ">

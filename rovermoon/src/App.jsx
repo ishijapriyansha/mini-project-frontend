@@ -7,10 +7,11 @@ import {
   Route,
   BrowserRouter
 } from "react-router-dom";
+import NftView from './components/NftView';
 
 function App() {
   return (
-    <>
+    
     <BrowserRouter> 
 { <Routes>
           <Route exact path="/" element={<><Navbar/> <Nfts/></>}>
@@ -18,8 +19,8 @@ function App() {
             <Route exact path="/create" element={<><Navbar/><Firstdraft/></>}>
             </Route>
         </Routes> }
- </BrowserRouter>
-    </>
+ </BrowserRouter> 
+ 
   )
 }
 

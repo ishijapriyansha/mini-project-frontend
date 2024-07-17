@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <>
-    <div >
-<nav className=" bg-blue-900 fixed w-full z-20 top-0 start-0 border-b backdrop-blur-2xl  dark:border-gray-600 rounded-b-xl h-18 ">
+    <div className='' >
+<nav className=" bg-blue-900 fixed w-full z-20 top-0 start-0 backdrop-blur-2xl border-b-2 border-b-solid border-b-black rounded-b-xl h-18 drop-shadow-sm">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo"/>
-      <span className="self-center text-2xl font-mono whitespace-nowrap dark:text-white">Credento </span>
+      <span className="self-center text-xl font-mono whitespace-nowrap dark:text-white">DECENTRALISED CREDENTIAL SYSTEM </span>
   </a>
   <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
     <div className="sidebuttons space-x-3">
